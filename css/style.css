@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', san-sharif;
+}
+.container{
+	width: 100%;
+}
+.container .nav-bar{
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	width: 100%;
+	box-shadow:  0px 2px 3px #A6ACAF ;
+	background-color: #fff;
+}
+.container .nav{
+	width: 90%;
+	height: 110px;
+	margin: auto;
+}
+
+.container .nav .brand{
+	width: 20%;
+	height: 100px;
+	float: left;
+	
+}
+.container .nav .brand img{
+	width: 50%;
+}
+.container .nav .navbar{
+	width: 70%;
+	height: 100px;
+	float: right;
+}
+.container .nav .navbar ul{
+	float: right;
+	margin-top: 50px;
+}
+.container .nav .navbar ul li{
+	float: left;
+	margin: auto 10px;
+	list-style: none;
+	
+}
+.container .nav .navbar ul li a{
+	color: #DF0303;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.container .slide{
+	width: 90%;
+	
+	height: auto;
+	margin: auto;
+	margin-top: 120px;
+}
+
+.container .slide .captions{
+	position: absolute;
+	top: 240px;
+	left: 140px;
+	width: 50%;
+	height: 50%;
+	background: #fff;
+	opacity: 0.7;
+}
+.container .slide .captions h1, h2{
+	margin-left: 50px;
+	color: #EF0A0A ;
+}
+
+.container  .Brief-note{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+
+}
+.container .alliance{
+	width: 58%;
+	margin: auto;
+	float: left;
+	
+
+}
+.container .alliance .images{
+	display: flex;
+	flex-direction: row;
+
+}
+.container .alliance .images img{
+	width: 60%;
+}
+.container  .profile{
+	width: 35%;
+	border-left: 2px red solid;
+	margin: auto;
+	float: left;
+	
+}
+.container .about{
+	width: 90%;
+	margin: auto;
+	margin-top: 115px;
+}c
+.container  .profile, h1,p{
+	margin-left: 20px;
+}
+.closebtn , .openbtn,.kush{
+	display: none;
+}
+
+
+
+/*  contact us*/
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: blue;
+  width: 120px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+.container .footer{
+	width: 100%;
+	clear: left; 
+	background-color: #DF0303 ; 
+	height: auto;
+}
+.container .footer p{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+/*  end contact us*/
+
+.container .services{
+	width: 80%;
+	margin: auto;
+	margin-top: 120px;
+}
+.container .services h1{
+	margin-left: 0px;
+	color: blue;
+	}
+.container .services h2{
+	color: #DF0303;
+	font-size: 1.2vw;
+	margin-left: 0px;
+	text-indent: 0px;
+}
+.container .services li{
+	color: black;
+	margin-left: 20px;
+	
+}
+
+@media screen and (max-width: 700px){
+	input[type=submit] {
+		width: 100%;
+}
+	.container .nav{
+	width: 90%;
+	height: 115px;
+	margin: auto;;
+}
+	.container .nav .brand{
+	width: 100%;
+	height: 110px;
+}
+.container .nav .brand span{
+	position: absolute;
+	width: 15%;
+	top: 5vw;
+	right: 3vw;
+}
+.container .nav .brand img{
+	position: absolute;
+	width: 25%;
+	top: 5vw;
+	left: 3vw;
+}
+
+.kush{
+	position: absolute;
+	top: 10vw;
+	left: 23vw;
+	font-size: 3vw;
+	display: block;
+}
+	.container .nav .navbar{
+	width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 120px;
+  left: 0;
+  background-color: red;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
+
+
+}
+.container .nav .navbar ul{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	list-style: none;
+
+	
+}
+.container .nav .navbar ul li a{
+	padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  border-bottom: 1px solid #fff;
+
+}
+.container .nav .navbar ul li a:hover{
+	background-color: blue;
+}
+.container .nav .navbar ul li a:active{
+	background-color: blue;
+}
+
+.container .nav .closebtn {
+  position: absolute;
+   text-decoration: none;
+  top: 0;
+  color: #fff;
+  right: 25px;
+  font-size: 36px;
+  display: block;
+}
+
+.openbtn {
+  font-size: 20vw;
+  cursor: pointer;
+  border: none;
+  display: block;
+}
+
+
+
+.container .slide .captions{
+	width: 70%;
+	height: 20%;
+	top: 160px;
+	left: 40px;
+}
+
+.container .slide .captions h1{
+	color: red;
+	margin: 5px;
+	font-size: 4vw;
+}
+.container .slide .captions h2{
+	color: red;
+	margin: 5px;
+	font-size: 3vw;
+}
+
+.container  .Brief-note{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+
+}
+.container .alliance{
+	width: 100%;
+	margin: auto;
+	float: left;
+	
+
+}
+.container .alliance h1, .profile h1{
+	font-size: 5vw;
+}
+.container .alliance .images{
+	display: flex;
+	flex-direction: row;
+
+}
+.container .alliance .images img{
+	width: 60%;
+}
+.container  .profile{
+	width: 100%;
+	border-left: 2px red solid;
+	margin: auto;
+	float: left;
+	
+}
+
+.container .services h2{
+	font-size:3vw;
+}
+
+.container .footer p{
+	text-align: center;
+	font-size: 3vw;
+	color: #fff;
+	font-weight: bold;
+}
+
+}
+
+
+

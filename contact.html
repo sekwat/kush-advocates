@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <link rel="shortcut icon" type="image/png" href="imgs/logo.png">
+  <title>Contact-Us | Kush advocates & solicitors</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="best law firm in south sudan ,juba" />
+        <meta name="keywords" content="best law firm, lawyer, south sudan" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
+</head>
+<body id="page" >
+  <div class="container">
+    <div class="nav-bar">
+      <div class="nav">
+      <div class="brand">
+        <span style="font-size:50px;cursor:pointer;color: red;" onclick="openNav()" class="openbtn">&#9776; </span><h1 class="kush">KUSH ADVOCATES & SOLICITORS</h1> 
+        <a href="index.html"><img src="imgs/logo.png"></a>
+      </div>
+      <div class="navbar" id="navbar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About US</a></li>
+          <li><a href="services.html">Expertise</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="#">News and Article</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+</div>
+
+   
+  </div>
+
+
+<style type="text/css">
+  .contact-con{
+    width: 90%;
+    margin: auto;
+     margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+  }
+   .address{
+    margin: auto;
+    border-bottom: 2px solid red;
+    width: 35%;
+    float: left;
+  }
+   .contact-form{
+    margin: auto;
+    
+    border-left: 2px solid red;
+    width: 55%;
+    float: left;
+  }
+  .contact-con .contact-form h3,form{
+    margin-left: 20px;
+  }
+  .contact-con h2{
+    font-size: 1.5vw;
+   }
+  @media screen and (max-width: 800px){
+    .contact-con{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-con .address{
+      background: url("./imgs/bacground.png");
+      background-position: center;
+    margin: auto;
+    border-bottom: none;
+    text-align: center;
+    width: 100%;
+    float: left;
+  }
+
+  .contact-con .address h2,h3,p{
+    color: #fff;
+  }
+
+  .contact-con .contact-form{
+    margin: auto;
+    border-left: 2px solid red;
+    width: 100%;
+    float: left;
+  }
+  .contact-con .contact-form h2,form{
+    margin-left: 20px;
+  }
+  .contact-con h2{
+    font-size: 2.5vw;
+   }
+  }
+   
+</style>
+
+  <div class="container">
+    <div class="contact-con">
+      <div class="address">
+        <div class="textbox wow slideInRight">
+          <h2>We are always here for you, feel free to talk to us.</h2><hr>
+        <p>We are located at: Tiba Petrol Station in Juba Town,<br>
+         2nd floor, opposite South Supreme Airline office </p>
+        <h3>Telephone</h3>
+        <p>Mob: +211 (0) 920333678 </p>
+        <p>Mob: +211 (0) 928192288</p>
+
+         <h3>Office Emails</h3>
+        <p>gabriel@kushadvocates.com</p>
+        <p>joseph@kushadvocates.com</p>
+        </div>
+      </div>
+  <div class="contact-form wow slideInLeft">
+    <h2>Fill this Form please</h2>
+  <form action="mail.php" onsubmit="return validateForm()">
+    <label for="name">Fullname</label>
+    <input type="text" id="name" name="name" placeholder="Your  name..">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your  email..">
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Your sunject..">
+
+    <!--label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select-->
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit" onclick="validateForm()"/>
+    <div class="status" id="status"></div>
+  </form>
+</div>
+    </div>
+
+
+ <div class="footer wow slideInTop">
+       <script type="text/javascript" src="js/style.js"></script>
+     <p style=""> Copyright &copy; 2017-<script>document.write(new Date().getFullYear())</script> Kush Advocates & Solicitors  All Rights Reserved</p>
+     <p> Powered by  <sub><i>Aliasoft Limited</i></sub></p>
+     <p><small style="color: #B3B6B7;"><i>Design with Love by sekwat isaac Lisok j</i></small></p>
+   </div>
+
+</div>
+
+   <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+              <script type="text/javascript">
+                function validateForm() {
+    // var x =  document.getElementById('name').value;
+    // if (x == "") {
+    //     document.getElementById('status').innerHTML = "Name cannot be empty";
+    //     return false;
+    // }
+    // x =  document.getElementById('email').value;
+    // if (x == "") {
+    //     document.getElementById('status').innerHTML = "Email cannot be empty";
+    //     return false;
+    // } else {
+    //     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    //     if(!re.test(x)){
+    //         document.getElementById('status').innerHTML = "Email format invalid";
+    //         return false;
+    //     }
+    // }
+    // x =  document.getElementById('subject').value;
+    // if (x == "") {
+    //     document.getElementById('status').innerHTML = "Subject cannot be empty";
+    //     return false;
+    // }
+    // x =  document.getElementById('message').value;
+    // if (x == "") {
+    //     document.getElementById('status').innerHTML = "Message cannot be empty";
+    //     return false;
+    // }
+ //get input field values data to be sent to server
+    document.getElementById('status').innerHTML = "Sending...";
+    formData = {
+        'name'     : $('input[name=name]').val(),
+        'email'    : $('input[name=email]').val(),
+        'subject'  : $('input[name=subject]').val(),
+        'message'  : $('textarea[name=message]').val()
+    };
+
+
+   $.ajax({
+    url : "mail.php",
+    type: "POST",
+    data : formData,
+    success: function(data, textStatus, jqXHR)
+    {
+
+        $('#status').text(data.message);
+        if (data.code) //If mail was sent successfully, reset the form.
+        $('#contact-form').closest('form').find("input[type=text], textarea").val("");
+    },
+    error: function (jqXHR, textStatus, errorThrown)
+    {
+        $('#status').text(jqXHR);
+    }
+});
+
+
+
+}
+    </script>
+              </script>
+</body>
+</html>
